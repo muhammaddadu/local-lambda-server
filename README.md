@@ -4,18 +4,24 @@
 ## Development
 
 #### Install dependencies
-```
+```bash
 npm install
 ```
 
 #### Create build
-```
+```bash
 npm run build
 ```
 
 #### Run CLI in dev mode with auto-reload
-```
+```bash
 ts-node-dev ./src/bin/lambda-server.ts
+```
+
+#### Run example lambda with CLI
+```bash
+ts-node-dev ./src/bin/lambda-server.ts --definitionFile=./example/local-lambda-definition.json 
+curl localhost:3001/hello
 ```
 
 ## CLI Usage

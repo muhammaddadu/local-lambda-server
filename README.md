@@ -27,7 +27,7 @@ curl localhost:3001/hello
 ## CLI Usage
 
 ```bash
-Usage: npx lambda-server [options]
+Usage: npx local-lambda-server [options]
 
 Commands:
   help     Display help

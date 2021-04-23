@@ -1,0 +1,7 @@
+[
+  {
+    "url": "/hello",
+    "lambdaFilePath": "./basic-lambda",
+    "handlerFn": "handler"
+  }
+]

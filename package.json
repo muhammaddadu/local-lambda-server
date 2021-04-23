@@ -1,0 +1,27 @@
+{
+  "name": "local-lambda-server",
+  "version": "0.0.1",
+  "description": "node package that allows you to run AWS HTTP Node Lambda's locally emulating the ALB",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npx typescript",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lambda-server": "./lib/bin/lambda-server.js"
+  },
+  "author": "Muhammad Dadu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "args": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
